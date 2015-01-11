@@ -1,0 +1,29 @@
+{
+  "name": "elasticsearch-cacheable",
+  "version": "1.0.0",
+  "description": "Cache elasticsearch search queries in redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glasseyes42/node-elasticsearch-cacheable.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "redis",
+    "cache"
+  ],
+  "author": "Chris Flook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glasseyes42/node-elasticsearch-cacheable/issues"
+  },
+  "homepage": "https://github.com/glasseyes42/node-elasticsearch-cacheable",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "object-hash": "^0.4.0",
+    "redis": "^0.12.1"
+  }
+}
