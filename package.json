@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-cacheable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache elasticsearch search queries in redis",
   "main": "index.js",
   "scripts": {
