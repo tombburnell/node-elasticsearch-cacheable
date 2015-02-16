@@ -42,7 +42,7 @@ function Mutate (client, options) {
       if (err) return callback(err);
 
       setImmediate(function (){ return callback(err, data); });
-      redis.set(hid, JSON.stringify(data), 'EX', 5);
+      redis.set(hid, JSON.stringify(data), 'EX', config.cacheTime);
     });
   }
 }
