@@ -11,7 +11,7 @@ var defaultConfig = {
 
 function Mutate (client, options) {
   var config = _.extend(defaultConfig, options || {}),
-      redis = Redis.createClient(config.redisPort, config.redisHost);
+      redis = Redis.createClient(config.redisPort, config.redisHost, config.redisOptions);
 
   redis.select(config.redisDatabase);
 
