@@ -24,6 +24,6 @@
   "dependencies": {
     "lodash": "^2.4.1",
     "object-hash": "^0.4.0",
-    "redis": "^0.12.1"
+    "redis": "^2.6.2"
   }
 }
